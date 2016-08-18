@@ -9,6 +9,12 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FsUno.Facts", "FsUno.Facts\
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FsUno.Specs", "FsUno.Specs\FsUno.Specs.fsproj", "{C3A115D9-CD8A-4479-B0E2-7D82C3479FE3}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".paket", ".paket", "{4A50E16A-616E-4DDC-87E4-707EF8300C77}"
+	ProjectSection(SolutionItems) = preProject
+		paket.dependencies = paket.dependencies
+		paket.lock = paket.lock
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
